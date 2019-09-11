@@ -1,0 +1,18 @@
+{
+  "DATA_PATH": "data/fashion",
+  "OUTPUT_DIR": "output_dir",
+  "MODEL": "simple_model_2",
+
+  "INITIAL_LR": 0.0005,
+  "DECAY_STEPS_LR": 10000,
+  "DECAY_FACTOR_LR": 0.9,
+
+  "BATCH_SIZE": 64,
+  "NUM_STEPS": 200000,
+  "VAL_SET_SIZE": 4000,
+
+  "KEEP_DROPOUT_PROB":0.5,
+  "WEIGHT_DECAY": 0.05,
+  "AUGMENT_PROB": 0.30
+
+}
